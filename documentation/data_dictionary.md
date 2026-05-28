@@ -4,7 +4,7 @@
 |-------------|------------------|
 | segment1 | Purchase Order Number |
 | authorization_status | Approval Status |
-| vendor_ud | Supplier Id |
+| vendor_id | Supplier Id |
 | creation_date | Purchase Order Created Date |
 | org_id | Operating Organization ID |
 | agent_id | Buyer ID |
