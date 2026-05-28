@@ -9,8 +9,8 @@
 | org_id | Operating Organization ID |
 | agent_id | Buyer ID |
 | approved_date | Purchase Order Approved Date |
-| approved_flag| Purchase Order Approved |
-| closed_code | Purchase Order Closed |
+| approved_flag| Approval Indicator (Y/N) |
+| closed_code | Purchase Order Closure Status |
 | currency_code | Currency |
-| interface_source_code | Source From |
-| note_to _receiver | requisitioner |
+| interface_source_code | Purchase Order Source |
+| note_to _receiver | Receiving Instructions |
