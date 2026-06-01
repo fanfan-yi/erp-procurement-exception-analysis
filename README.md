@@ -1,37 +1,68 @@
-# erp-procurement-exception-analysis
-SQL and cloud-based procurement analysis project using BigQuery and Looker Studio.
 # ERP Procurement Exception Analysis
 
-## Project Overview
-This project demonstrates how SQL and cloud analytics can be used to analyse procurement operations within an ERP environment.
-The analysis focuses on:
+## Overview
 
-- Purchase order approval status
-- Buyer workload distribution
-- Procurement trends
-- Exception detection
-- Operational reporting
+This project demonstrates how ERP procurement data can be analysed using SQL and Google Cloud Platform (GCP) to identify operational insights, approval bottlenecks, and procurement exceptions.
+
+The project is based on Oracle EBS procurement structures and focuses on business-oriented analysis rather than pure technical reporting.
+
+## Business Problem
+
+Procurement teams often struggle to identify:
+
+* Approval bottlenecks
+* Workload distribution
+* Purchasing trends
+* Procurement exceptions
+* Spending visibility
+
+This project aims to provide actionable insights through SQL analysis and cloud-based reporting.
 
 ## Technology Stack
-- Google Cloud Platform (GCP)
-- BigQuery
-- Cloud Storage
-- GitHub
 
-## Business Objective
-Identify procurement exceptions and operational inefficiencies through data analysis and reporting.
+* Oracle EBS Procurement Data
+* Google Cloud Storage
+* BigQuery
+* GitHub
+* Looker Studio (Planned)
 
-## Current Analysis
+## Dataset
 
-### Analysis #1
-Procurement Approval Status Analysis
+Current tables:
 
-### Analysis #2
-Buyer Workload Distribution
+* PO_HEADERS_ALL
+* PO_LINES_ALL
 
-## Future Enhancements
+## Analysis Completed
 
-- Dashboard development with Looker Studio
-- Supplier performance analysis
-- Procurement trend analysis
-- Automated reporting
+### Analysis #1 – Procurement Approval Status Analysis
+
+Objective:
+
+Understand approval workflow distribution and identify approval bottlenecks.
+
+### Analysis #2 – Buyer Workload Distribution
+
+Objective:
+
+Analyse workload allocation across procurement buyers.
+
+### Analysis #3 – Procurement Spend by Currency
+
+Objective:
+
+Understand spending patterns across different currencies and procurement regions.
+
+## Documentation
+
+* Data Dictionary
+* SQL Analysis Results
+* Screenshots
+
+## Planned Enhancements
+
+* Supplier Performance Analysis
+* Procurement Trend Dashboard
+* Approval Lead Time Analysis
+* Exception Detection Framework
+* Looker Studio Dashboard
