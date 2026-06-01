@@ -11,7 +11,7 @@ Understand procurement approval workflow distribution.
   - APPROVED
   - IN PROCESS
   - INCOMPLETE
-- Most purchase orders were successfully approved.
+- Most purchase orders were successfully approved, with an approval rate of approximately 91%.
 - A small number of purchase orders remain in process or incomplete and may require follow-up actions.
 
 ### Business Impact
@@ -28,6 +28,7 @@ Identify workload distribution among buyers.
 - Top buyer processed 42 purchase orders.
 - Second buyer processed 40 purchase orders.
 - Third buyer processed 37 purchase orders.
+- The top three buyers were responsible for approximately 56% of total purchase orders, indicating a relatively concentrated workload distribution.
 - Workload appears relatively concentrated among several key buyers.
 - 
 ### Business Impact
@@ -47,3 +48,5 @@ Analyse procurement spending across different currencies.
 
 ### Business Impact
 Understanding currency-based spending patterns helps support procurement planning and financial reporting.
+
+---
