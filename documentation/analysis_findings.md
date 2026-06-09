@@ -79,6 +79,24 @@ Examples included:
 * YYYY/M/D 下午 HH:MM:SS
 As a result, approval lead-time calculations could not be completed without additional data cleansing and standardisation.
 
+---
+
+## Technical Challenge
+
+### Looker Studio Integration
+While connecting BigQuery datasets to Looker Studio, dataset access errors were encountered despite:
+- Successful SQL execution in BigQuery
+- Correct IAM permissions
+- Successful schema discovery in Looker Studio
+
+Troubleshooting included:
+- Dataset permission review
+- IAM validation
+- View-based testing
+- Credential verification
+
+Root cause is suspected to be related to dataset regional configuration and Looker Studio access behaviour.
+
 ### Business Impact
 Inconsistent date formats can affect reporting accuracy and may lead to unreliable KPI measurements.
 Data validation and standardisation should be implemented before performing approval lead-time analysis.
