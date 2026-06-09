@@ -66,3 +66,21 @@ Identify procurement transactions that have not completed the approval process a
 Unapproved purchase orders may delay procurement execution and supplier fulfilment. Monitoring approval exceptions can help procurement teams identify workflow bottlenecks and improve processing efficiency.
 
 ---
+
+## Analysis #6 - Approval Lead Time Investigation
+
+### Objective
+Investigate approval lead times between purchase order creation and approval dates.
+
+### Findings
+During the analysis, approval_date values could not be consistently converted into timestamps due to multiple date formats being identified within the dataset.
+Examples included:
+* MM/DD/YYYY HH:MM:SS
+* YYYY/M/D 下午 HH:MM:SS
+As a result, approval lead-time calculations could not be completed without additional data cleansing and standardisation.
+
+### Business Impact
+Inconsistent date formats can affect reporting accuracy and may lead to unreliable KPI measurements.
+Data validation and standardisation should be implemented before performing approval lead-time analysis.
+
+---
