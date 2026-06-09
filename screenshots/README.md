@@ -14,3 +14,9 @@ Analysed purchase order volumes by buyer to identify workload distribution and p
 Analysed procurement transaction volumes and purchasing spend across different currencies using Oracle EBS procurement data.
 Business objective:
 Identify major spending currencies and understand purchasing distribution across global procurement operations.
+
+## 2026-06-09
+### SQL Analysis #4 — Unapproved Purchase Orders
+Analysed purchase orders that were not fully approved to identify potential approval bottlenecks and operational exceptions.
+Business objective:
+Identify buyers, organisations, and workflow stages that contribute to procurement delays.
