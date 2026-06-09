@@ -50,3 +50,19 @@ Analyse procurement spending across different currencies.
 Understanding currency-based spending patterns helps support procurement planning and financial reporting.
 
 ---
+
+## Analysis #4 - Unapproved Purchase Order Analysis
+
+### Objective
+Identify procurement transactions that have not completed the approval process and determine potential operational bottlenecks.
+
+### Findings
+* A total of 19 purchase orders were not fully approved.
+* The majority of unapproved transactions were classified as IN PROCESS.
+* Buyer ID 284 had the highest number of unapproved purchase orders.
+* Organisation 128 contained the largest number of unapproved purchase orders; however, this organisation also represented a significant proportion of overall procurement activity.
+
+### Business Impact
+Unapproved purchase orders may delay procurement execution and supplier fulfilment. Monitoring approval exceptions can help procurement teams identify workflow bottlenecks and improve processing efficiency.
+
+---
